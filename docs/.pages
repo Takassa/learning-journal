@@ -2,8 +2,22 @@ nav:
     - 🏚️ Home: index.md
     - 🚩 Capture the flag:
       - TryhackMe:
-        - aap: ctf/thm/aap
+        - Easy:
+          - aap: ctf/thm/easy/aap
+        - Medium:
+          - aap: ctf/thm/easy/aap
+        - Hard:
+          - aap: ctf/thm/easy/aap
       - HackTheBox:
-        - gorilla: ctf/htb/gorilla
-    - 📝 Notes:
+        - Very easy:
+          - aap: ctf/htb/easy/aap
+        - Easy:
+          - aap: ctf/htb/easy/gorilla
+        - Medium:
+          - gorilla: ctf/htb/easy/gorilla
+        - Hard:
+          - gorilla: ctf/htb/easy/gorilla
+        - Insane:
+          - gorilla: ctf/htb/easy/gorilla
+    - 📝 Cheat sheet:
       - Reverse Shells: notes/rev_shells
