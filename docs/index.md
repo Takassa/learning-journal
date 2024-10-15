@@ -1,5 +1,5 @@
-# Pentesting notes
+# Learning journal
 
 ## Overview
 
-jogn doe
+john doe

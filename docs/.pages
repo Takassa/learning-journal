@@ -1,0 +1,9 @@
+nav:
+    - 🏚️ Home: index.md
+    - 🚩 Capture the flag:
+      - TryhackMe:
+        - aap: ctf/thm/aap
+      - HackTheBox:
+        - gorilla: ctf/htb/gorilla
+    - 📝 Notes:
+      - Reverse Shells: notes/rev_shells
