@@ -61,8 +61,11 @@ body {
 	text-align: center;
 }
 
-.md-sidebar--primary .mdocotion-nav-header .mdocotion-nav-logo {
-	margin: 22px auto 0;
+.mdocotion-nav-logo {
+	/* max-height: 5px !important;  Forceren dat deze regel wordt toegepast */
+    width: fit-content;
+	height: 200px;
+	display: flex;
 }
 
 @media screen and (max-width: 76.1875em) {
