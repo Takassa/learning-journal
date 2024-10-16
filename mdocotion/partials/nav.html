@@ -16,7 +16,7 @@
 		{{ config.site_name }}
 	{% endif %}
 </div>
-<nav style="margin-bottom: 250px;" class="{{ class }}" aria-label="{{ lang.t('nav') }}" data-md-level="0">
+<nav class="{{ class }}" aria-label="{{ lang.t('nav') }}" data-md-level="0">
 	<ul class="md-nav__list" data-md-scrollfix>
 		{% for nav_item in nav %}
 		{% set path = "__nav_" ~ loop.index %}
@@ -25,13 +25,3 @@
 		{% endfor %}
 	</ul>
 </nav>
-
-<div class="social-media-links" style="display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; margin-top: 20px;">
-    <a href="https://www.linkedin.com/in/ilias-takassa/" target="_blank">
-        <img src="assets/linkedin.png" alt="LinkedIn" style="display: block; margin: 10px auto; max-width: 100px;">
-    </a>
-    <a href="https://github.com/your-profile" target="_blank">
-        <img src="assets/github.png" alt="GitHub" style="display: block; margin: 10px auto; max-width: 120px;">
-    </a>
-</div>
-

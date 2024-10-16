@@ -63,7 +63,6 @@ body {
 
 .mdocotion-nav-logo {
 	/* max-height: 5px !important;  Forceren dat deze regel wordt toegepast */
-    width: fit-content;
 	height: 200px;
 	display: flex;
 }
@@ -368,3 +367,27 @@ html .md-header:hover {
 	font-size: 0.8em;
 	vertical-align: middle;
 }
+
+.social-media-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.social-icon {
+    display: block;
+    margin: 10px;
+    max-width: 100px !important;
+}
+
+.linkedin {
+    max-width: 150px !important;
+}
+
+.github {
+    max-width: 150px !important;
+}
+
+

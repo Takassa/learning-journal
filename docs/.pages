@@ -1,16 +1,9 @@
 nav:
-    - 🏚️ Home: index.md
+    - 🏚️ Welcome: index.md
     - 🚩 Capture the flag:
-      - TryhackMe:
-        - Easy:
-          - aap: ctf/thm/easy/aap
-        - Medium:
-          - aap: ctf/thm/easy/aap
-        - Hard:
-          - aap: ctf/thm/easy/aap
       - HackTheBox:
         - Very easy:
-          - aap: ctf/htb/easy/aap
+          - aap: ctf/htb/easy/gorilla
         - Easy:
           - aap: ctf/htb/easy/gorilla
         - Medium:
@@ -19,5 +12,16 @@ nav:
           - gorilla: ctf/htb/easy/gorilla
         - Insane:
           - gorilla: ctf/htb/easy/gorilla
+      - TryhackMe:
+        - Easy:
+          - Pickle Rick: ctf/thm/easy/picklerick
+        - Medium:
+          - aap: ctf/thm/easy/aap
+        - Hard:
+          - aap: ctf/thm/easy/aap
     - 📝 Cheat sheet:
-      - Reverse Shells: notes/rev_shells
+      - Reverse Shells:
+        - One-liners: cheat-sheet/rev-shells/one-liners
+        - Shell Stabilizing: cheat-sheet/rev-shells/shell-Stabilizing
+        - Scripts:
+          - PHP: cheat-sheet/rev-shells/scripts/php
